@@ -9,19 +9,19 @@ The following script will fix this issue.
 The actual function that does the fixing is `Subtitle.fixLine(:)`.
 You may change the characters that are used to fix the line in the function.
 
-# HOW TO RUN SCRIPT
+## HOW TO RUN SCRIPT
 You may run the script in Visual Studio Code, or any other IDE
 that supports Swift.
 
-# HOW TO RUN OVER FOLDERS
+## HOW TO RUN OVER FOLDERS
 Use Running.run(atFolder:exportPath:) to run the script over a folder.
 It will run over all of the files in the folder and in every sub-folder,
 and export the files to the provided export path.
 
-# SUPPORTED SUBTITLES FORMATS
+## SUPPORTED SUBTITLES FORMATS
 Only `.sbv` format is supported at the moment.
 Do not try to run on any other format.
 
-# LICENCE
+## LICENCE
 This script is licensed under the Attribution 3.0 Unported (CC BY 3.0) license.
 For more information see https://creativecommons.org/licenses/by/3.0/
